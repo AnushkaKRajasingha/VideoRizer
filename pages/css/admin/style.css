@@ -1,0 +1,8 @@
+@CHARSET "ISO-8859-1";
+a[href="admin.php?page=VideoRizer"] div.wp-menu-image, a[href="admin.php?page=VideoRizer_licensing"] div.wp-menu-image,, a[href="admin.php?page=VideoRizer_expired"] div.wp-menu-image {
+  margin-right: 5px !important;
+}
+a[href="admin.php?page=VideoRizer"] div.wp-menu-image img,a[href="admin.php?page=VideoRizer_licensing"] div.wp-menu-image img,a[href="admin.php?page=VideoRizer_expired"] div.wp-menu-image img  {
+  padding: 0 !important;
+}
+

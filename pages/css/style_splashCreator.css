@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+@IMPORT url("to-do-list.css");
+.page-title {
+    display: none;
+}
+.btn-bottom{
+	float: none !important;
+}
+span.fa.fa-times {
+  font-size: 22px;
+  padding: 6px 5px;
+  width: 32px;
+}
+
+.splash{
+	/*border: 1px #CCC solid;
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;*/
+padding: 5px;
+/*background-color: rgba(132,224,219,1);*/
+width:100% !important;
+height:auto !important;
+/*background: url("../images/38368.jpg") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, .5);*/
+}
+
+img.fnone{
+	width: 10vw;
+	height: auto;
+}

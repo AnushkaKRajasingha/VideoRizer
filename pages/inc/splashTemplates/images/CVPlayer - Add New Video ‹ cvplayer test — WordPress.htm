@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html xmlns="http://www.w3.org/1999/xhtml" class="ie8 wp-toolbar"  lang="en-US">
+<![endif]-->
+<!--[if !(IE 8) ]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" class="wp-toolbar" lang="en-US"><!--<![endif]--><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>CVPlayer - Add New Video ‹ cvplayer test — WordPress</title>
+<script type="text/javascript">
+addLoadEvent = function(func){if(typeof jQuery!="undefined")jQuery(document).ready(func);else if(typeof wpOnload!='function'){wpOnload=func;}else{var oldonload=wpOnload;wpOnload=function(){oldonload();func();}}};
+var ajaxurl = '/cvplayer/wp-admin/admin-ajax.php',
+	pagenow = 'cvplayer_page_CVPlayer_addNewVideo',
+	typenow = '',
+	adminpage = 'cvplayer_page_CVPlayer_addNewVideo',
+	thousandsSeparator = ',',
+	decimalPoint = '.',
+	isRtl = 0;
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/load-styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="open-sans-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/css.css" type="text/css" media="all">
+<!--[if lte IE 7]>
+<link rel='stylesheet' id='ie-css'  href='http://localhost:8080/cvplayer/wp-admin/css/ie.min.css?ver=4.0' type='text/css' media='all' />
+<![endif]-->
+<link rel="stylesheet" id="CVPlayer-_addNewVideo-style-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/style_addNewVideo.css" type="text/css" media="all">
+<link rel="stylesheet" id="Bootstrap-Style-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/bootstrap_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="Bootstrap-Reset-Style-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/bootstrap.css" type="text/css" media="all">
+<link rel="stylesheet" id="Bootstrap-Reset-Style1-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/bootstrap-reset.css" type="text/css" media="all">
+<link rel="stylesheet" id="CVPlayer-fonts-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/fonts.css" type="text/css" media="all">
+<link rel="stylesheet" id="CVPlayer-animation-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/animation.css" type="text/css" media="all">
+<link rel="stylesheet" id="CVPlayer-wp-reset-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/wp-reset.css" type="text/css" media="all">
+<link rel="stylesheet" id="data-table-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/DT_bootstrap.css" type="text/css" media="all">
+<link rel="stylesheet" id="data-table-custom-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/dataTableCustom.css" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/font-awesome.css" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrap-switch-master-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/bootstrap-switch.css" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrap-datetimepicker-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/datetimepicker.css" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrap-colorpicker-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/colorpicker.css" type="text/css" media="all">
+<link rel="stylesheet" id="VideoJS-Style-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/video-js.css" type="text/css" media="all">
+<link rel="stylesheet" id="VideoJSReset-Style-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/video-js-reset.css" type="text/css" media="all">
+<link rel="stylesheet" id="jquerySortable-style-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="msdropdown-style-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/dd.css" type="text/css" media="all">
+<link rel="stylesheet" id="CVPlayer-style-css" href="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/style_002.css" type="text/css" media="all">
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var userSettings = {"url":"\/cvplayer\/","uid":"1","time":"1411618193","secure":""};/* ]]> */
+</script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/load-scripts.js"></script>
+<script type="text/javascript">var _wpColorScheme = {"icons":{"base":"#999","focus":"#2ea2cc","current":"#fff"}};</script>
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css"> .vjs-youtube .vjs-poster { background-size: 100%!important; }.vjs-youtube .vjs-poster, .vjs-youtube .vjs-loading-spinner, .vjs-youtube .vjs-text-track-display{    pointer-events: none !important; }.vjs-youtube.vjs-user-active .iframeblocker { display: none; }.vjs-youtube.vjs-user-inactive .vjs-tech.onDesktop { pointer-events: none; }.vjs-quality-button > div:first-child > span:first-child { position:relative;top:7px }</style></head>
+<body class="wp-admin wp-core-ui js  cvplayer_page_CVPlayer_addNewVideo auto-fold admin-bar branch-4 version-4-0 admin-color-fresh locale-en-us customize-support sticky-menu svg">
+<script type="text/javascript">
+	document.body.className = document.body.className.replace('no-js','js');
+</script>
+
+	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+			request = true;
+
+			b[c] = b[c].replace( rcs, ' ' );
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+	
+<div id="wpwrap">
+<a tabindex="1" href="#wpbody-content" class="screen-reader-shortcut">Skip to main content</a>
+
+<div id="adminmenuback"></div>
+<div id="adminmenuwrap">
+<ul id="adminmenu" role="navigation">
+
+
+	<li class="wp-first-item wp-has-submenu wp-not-current-submenu menu-top menu-top-first menu-icon-dashboard menu-top-last" id="menu-dashboard">
+	<a href="http://localhost:8080/cvplayer/wp-admin/index.php" class="wp-first-item wp-has-submenu wp-not-current-submenu menu-top menu-top-first menu-icon-dashboard menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-dashboard"><br></div><div class="wp-menu-name">Dashboard</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head">Dashboard</li><li class="wp-first-item"><a href="http://localhost:8080/cvplayer/wp-admin/index.php" class="wp-first-item">Home</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/update-core.php">Updates <span class="update-plugins count-4" title="1 Plugin Update, 3 Theme Updates"><span class="update-count">4</span></span></a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu open-if-no-js menu-top menu-icon-post menu-top-first" id="menu-posts">
+	<a href="http://localhost:8080/cvplayer/wp-admin/edit.php" class="wp-has-submenu wp-not-current-submenu open-if-no-js menu-top menu-icon-post menu-top-first" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-post"><br></div><div class="wp-menu-name">Posts</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head">Posts</li><li class="wp-first-item"><a href="http://localhost:8080/cvplayer/wp-admin/edit.php" class="wp-first-item">All Posts</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/post-new.php">Add New</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/edit-tags.php?taxonomy=category">Categories</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/edit-tags.php?taxonomy=post_tag">Tags</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" id="menu-media">
+	<a href="http://localhost:8080/cvplayer/wp-admin/upload.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-media"><br></div><div class="wp-menu-name">Media</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head">Media</li><li class="wp-first-item"><a href="http://localhost:8080/cvplayer/wp-admin/upload.php" class="wp-first-item">Library</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/media-new.php">Add New</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" id="menu-pages">
+	<a href="http://localhost:8080/cvplayer/wp-admin/edit.php?post_type=page" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-page"><br></div><div class="wp-menu-name">Pages</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head">Pages</li><li class="wp-first-item"><a href="http://localhost:8080/cvplayer/wp-admin/edit.php?post_type=page" class="wp-first-item">All Pages</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/post-new.php?post_type=page">Add New</a></li></ul></li>
+	<li class="wp-not-current-submenu menu-top menu-icon-comments menu-top-last" id="menu-comments">
+	<a href="http://localhost:8080/cvplayer/wp-admin/edit-comments.php" class="wp-not-current-submenu menu-top menu-icon-comments menu-top-last"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-comments"><br></div><div class="wp-menu-name">Comments <span class="awaiting-mod count-0"><span class="pending-count">0</span></span></div></a></li>
+	<li class="wp-not-current-submenu wp-menu-separator"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-appearance menu-top-first" id="menu-appearance">
+	<a href="http://localhost:8080/cvplayer/wp-admin/themes.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-appearance menu-top-first" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-appearance"><br></div><div class="wp-menu-name">Appearance</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head">Appearance</li><li class="wp-first-item"><a href="http://localhost:8080/cvplayer/wp-admin/themes.php" class="wp-first-item">Themes</a></li><li class="hide-if-no-customize"><a href="http://localhost:8080/cvplayer/wp-admin/customize.php?return=%2Fcvplayer%2Fwp-admin%2Fadmin.php%3Fpage%3DCVPlayer_addNewVideo%26uniqueid%3D6a0a06dfdb" class="hide-if-no-customize">Customize</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/widgets.php">Widgets</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/nav-menus.php">Menus</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/themes.php?page=custom-header">Header</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/themes.php?page=custom-background">Background</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/theme-editor.php">Editor</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" id="menu-plugins">
+	<a href="http://localhost:8080/cvplayer/wp-admin/plugins.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-plugins"><br></div><div class="wp-menu-name">Plugins <span class="update-plugins count-1"><span class="plugin-count">1</span></span></div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head">Plugins <span class="update-plugins count-1"><span class="plugin-count">1</span></span></li><li class="wp-first-item"><a href="http://localhost:8080/cvplayer/wp-admin/plugins.php" class="wp-first-item">Installed Plugins</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/plugin-install.php">Add New</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/plugin-editor.php">Editor</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" id="menu-users">
+	<a href="http://localhost:8080/cvplayer/wp-admin/users.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-users"><br></div><div class="wp-menu-name">Users</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head">Users</li><li class="wp-first-item"><a href="http://localhost:8080/cvplayer/wp-admin/users.php" class="wp-first-item">All Users</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/user-new.php">Add New</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/profile.php">Your Profile</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" id="menu-tools">
+	<a href="http://localhost:8080/cvplayer/wp-admin/tools.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-tools"><br></div><div class="wp-menu-name">Tools</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head">Tools</li><li class="wp-first-item"><a href="http://localhost:8080/cvplayer/wp-admin/tools.php" class="wp-first-item">Available Tools</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/import.php">Import</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/export.php">Export</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" id="menu-settings">
+	<a href="http://localhost:8080/cvplayer/wp-admin/options-general.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-settings"><br></div><div class="wp-menu-name">Settings</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head">Settings</li><li class="wp-first-item"><a href="http://localhost:8080/cvplayer/wp-admin/options-general.php" class="wp-first-item">General</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/options-writing.php">Writing</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/options-reading.php">Reading</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/options-discussion.php">Discussion</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/options-media.php">Media</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/options-permalink.php">Permalinks</a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-has-current-submenu wp-menu-open menu-top toplevel_page_CVPlayer menu-top-first menu-top-last" id="toplevel_page_CVPlayer"><a href="http://localhost:8080/cvplayer/wp-admin/admin.php?page=CVPlayer" class="wp-has-submenu wp-has-current-submenu wp-menu-open menu-top toplevel_page_CVPlayer menu-top-first menu-top-last"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before"><img src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/icon.png" alt=""></div><div class="wp-menu-name">CVPlayer</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head">CVPlayer</li><li class="wp-first-item"><a href="http://localhost:8080/cvplayer/wp-admin/admin.php?page=CVPlayer" class="wp-first-item">CVPlayer</a></li><li class="current"><a href="http://localhost:8080/cvplayer/wp-admin/admin.php?page=CVPlayer_addNewVideo" class="current">Add New Video</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/admin.php?page=CVPlayer_defaultOptions">Default options</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/admin.php?page=CVPlayer_mySplash">Splash Images</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/admin.php?page=CVPlayer_splashCreator">Splash Creator</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/admin.php?page=CVPlayer_supports">Help &amp; Supports</a></li><li><a href="http://localhost:8080/cvplayer/wp-admin/admin.php?page=CVPlayer_licenseSettings">License</a></li></ul></li><li id="collapse-menu" class="hide-if-no-js"><div id="collapse-button"><div></div></div><span>Collapse menu</span></li></ul>
+</div>
+<div id="wpcontent">
+
+		<div id="wpadminbar" class="" role="navigation">
+			<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Skip to toolbar</a>
+			<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Top navigation toolbar." tabindex="0">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-menu-toggle"><a aria-expanded="false" class="ab-item" href="#"><span class="ab-icon"></span><span class="screen-reader-text">Menu</span></a>		</li>
+		<li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://localhost:8080/cvplayer/wp-admin/about.php" title="About WordPress"><span class="ab-icon"></span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+		<li id="wp-admin-bar-about"><a class="ab-item" href="http://localhost:8080/cvplayer/wp-admin/about.php">About WordPress</a>		</li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-wporg"><a class="ab-item" href="https://wordpress.org/">WordPress.org</a>		</li>
+		<li id="wp-admin-bar-documentation"><a class="ab-item" href="http://codex.wordpress.org/">Documentation</a>		</li>
+		<li id="wp-admin-bar-support-forums"><a class="ab-item" href="https://wordpress.org/support/">Support Forums</a>		</li>
+		<li id="wp-admin-bar-feedback"><a class="ab-item" href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://localhost:8080/cvplayer/">cvplayer test</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+		<li id="wp-admin-bar-view-site"><a class="ab-item" href="http://localhost:8080/cvplayer/">Visit Site</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-updates"><a class="ab-item" href="http://localhost:8080/cvplayer/wp-admin/update-core.php" title="1 Plugin Update, 3 Theme Updates"><span class="ab-icon"></span><span class="ab-label">4</span><span class="screen-reader-text">1 Plugin Update, 3 Theme Updates</span></a>		</li>
+		<li id="wp-admin-bar-comments"><a class="ab-item" href="http://localhost:8080/cvplayer/wp-admin/edit-comments.php" title="0 comments awaiting moderation"><span class="ab-icon"></span><span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0">0</span></a>		</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://localhost:8080/cvplayer/wp-admin/post-new.php" title="Add New"><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+		<li id="wp-admin-bar-new-post"><a class="ab-item" href="http://localhost:8080/cvplayer/wp-admin/post-new.php">Post</a>		</li>
+		<li id="wp-admin-bar-new-media"><a class="ab-item" href="http://localhost:8080/cvplayer/wp-admin/media-new.php">Media</a>		</li>
+		<li id="wp-admin-bar-new-page"><a class="ab-item" href="http://localhost:8080/cvplayer/wp-admin/post-new.php?post_type=page">Page</a>		</li>
+		<li id="wp-admin-bar-new-user"><a class="ab-item" href="http://localhost:8080/cvplayer/wp-admin/user-new.php">User</a>		</li></ul></div>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" aria-haspopup="true" href="http://localhost:8080/cvplayer/wp-admin/profile.php" title="My Account">Howdy, admin<img alt="" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/0cfc38df10aea55ebb029fa2d2343542.png" class="avatar avatar-26 photo" height="26" width="26"></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
+		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://localhost:8080/cvplayer/wp-admin/profile.php"><img alt="" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/0cfc38df10aea55ebb029fa2d2343542_002.png" class="avatar avatar-64 photo" height="64" width="64"><span class="display-name">admin</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile"><a class="ab-item" href="http://localhost:8080/cvplayer/wp-admin/profile.php">Edit My Profile</a>		</li>
+		<li id="wp-admin-bar-logout"><a class="ab-item" href="http://localhost:8080/cvplayer/wp-login.php?action=logout&amp;_wpnonce=e28bfeea06">Log Out</a>		</li></ul></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://localhost:8080/cvplayer/wp-login.php?action=logout&amp;_wpnonce=e28bfeea06">Log Out</a>
+					</div>
+
+		
+<div id="wpbody">
+
+<div id="wpbody-content" aria-label="Main content" tabindex="0">
+		<div id="screen-meta" class="metabox-prefs">
+
+			<div id="contextual-help-wrap" class="hidden no-sidebar" tabindex="-1" aria-label="Contextual Help Tab">
+				<div id="contextual-help-back"></div>
+				<div id="contextual-help-columns">
+					<div class="contextual-help-tabs">
+						<ul>
+												</ul>
+					</div>
+
+					
+					<div class="contextual-help-tabs-wrap">
+											</div>
+				</div>
+			</div>
+				</div>
+		<!-- page var -->
+<input name="page_key" id="page_key" value="_addNewVideo" type="hidden">
+<!-- page var -->
+<!-- Please Wait Dialog -->
+<div class="modal fade" data-backdrop="static" data-keyboard="false" id="pw_modal_addNewVideo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title"><span id="modalTitle"></span>Add New Video</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                       <!--  <div class="progress progress-striped active progress-sm">
+                                    <div style="width: 10%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar" class="progress-bar progress-bar-success">
+                                        <span class="sr-only">10% Complete</span>
+                                    </div>
+                                    
+                                </div> -->
+                                <p id="modalText"></p>
+                               <div style="width:100%;text-align: center;">
+                                <img src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/gears2.gif" width="100px"></div>                                        
+                                 </div>
+                                    </div>
+                                </div>
+                            </div>
+<!-- Please Wait Dialog -->                            
+<!-- Model Dialog -->
+
+<div class="modal fade" id="modal_addNewVideo" tabindex="-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                            <h4 class="modal-title"><span id="modalTitle"></span> - Add New Video</h4>
+                                        </div>
+                                        <div class="modal-body"><p id="modalText"></p></div>
+                                        <div class="modal-footer">
+                                            <button data-dismiss="modal" class="btn btn-primary" type="button"> Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+<!-- Model Dialog -->
+<div class="wrap">
+	<div id="icon-edit-pages" class="icon32"></div>
+	<h2 class="row col-xs-12 v-middel">
+		<a href="#" class="logobig content animated text-shadow-animation">CVPlayer		 </a> <a href="#" target="_blank" class="fbicon content animated rotate-animation">Facebook Course</a>
+		 <a href="#" target="_blank" class="supporticon content animated rotate-animation">Support</a>
+		 <a href="#" target="_blank" class="guideicon content animated rotate-animation">Guide</a>
+		 
+	</h2>
+	<div class="wrapper">
+		<div class="postbox plugin-wrap CVPlayer ">
+		<header class="panel-heading page-title"><h2>Add New Video<div id="load_bar_ctrl" class="pull-right"><img alt="Loading..." src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/loading_bar.gif"></div></h2></header><!-- Video Preview Dialog -->
+<script type="text/javascript">
+<!--
+(function($){
+	
+	function videoPreviewDialog(){		
+		$('#vp_modal_addNewVideo').modal('show');
+		if($('#vp_modal_addNewVideo').attr('data-autoplay')=="true"){videojs_6a0a06dfdb.play();}
+	};
+
+	function videoPreviewDialogClose(){
+		//videojs_6a0a06dfdb.pause();
+		$('#vp_modal_addNewVideo').modal('hide');
+	};
+	
+	$('document').ready(function(){
+		/*$('button#btn_previewClose').click(function(){
+			videoPreviewDialogClose();
+		});		
+
+		$('#btn_previewVideo').click(function(){			
+			videoPreviewDialog();
+		});*/
+	});	
+})(jQuery);
+//-->
+</script>
+<div class="modal fade" id="vp_modal_addNewVideo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-autoplay="false">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="modalTitle">Video Preview</h4>
+			</div>
+			<div class="modal-body">				
+				
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-primary" type="button" id="btn_previewClose" data-dismiss="modal">
+					Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Video Preview Dialog -->
+<section class="wrapper">
+	<form id="from_addNewVideo" method="post" role="form" class="form-horizontal">
+		<input data-field-value="yes" data-field-name="uniqueid" name="uniqueid" value="6a0a06dfdb" type="hidden">
+		<div class="row">
+			<div class="col-md-12">
+				<section class="panel">
+					<header class="panel-heading tab-bg-dark-navy-blue">
+						<ul class="nav nav-tabs">
+							<li class="active"><a data-toggle="tab" href="#home-2"> <i class="fa fa-play-circle"></i> Video</a></li>
+							<li class=""><a href="#about-2" data-toggle="tab"> <i class="fa fa-list-alt"></i> Opt-in</a></li>
+							<li class=""><a href="#contact-2" data-toggle="tab"> <i class="fa fa-bolt"></i> Call to Action</a></li>
+						</ul>
+					</header>
+					<div class="panel-body">
+						<div class="tab-content">
+							<div class="tab-pane  active" id="home-2">
+                           <div class="position-center">	
+		<div class="form-group">
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label" for="title">Video Title</label>
+			<div class="col-xs-10 col-sm-8 col-lg-6">
+				<input value="Test Video updated" required="required" placeholder="My Video 001" id="title" class="form-control" data-field-value="yes" data-field-name="title" name="title" type="text">
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Video Title Help Text" title="" data-placement="bottom" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label" for="description">Video Description</label>
+			<div class="col-xs-10 col-sm-8 col-lg-6">
+				<input value="ABAB" required="required" placeholder="My First Video" id="description" class="form-control" data-field-value="yes" data-field-name="description" name="description" type="text">
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Video Description Help Text" title="" data-placement="bottom" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label" for="youtubeurl">YouTube URL</label>
+			<div class="col-xs-10 col-sm-8 col-lg-6">
+				<input value="https://www.youtube.com/watch?v=9l5U_UjUl8k" required="required" placeholder="http://www.youtube.com/watch?v=asduyuiasd" id="videoURL" class="form-control" data-field-value="yes" data-field-name="youtubeurl" name="youtubeurl" type="url">
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Video URL Help Text" title="" data-placement="bottom" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>
+		 <div class="form-group">
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label" for="splashimageid">Splash Image</label>
+			<div class="col-xs-10 col-sm-8 col-lg-6">
+			
+				<div id="splashimageid_msddHolder" class="ddOutOfVision" style="height: 0px; overflow: hidden; position: absolute;"><select required="" id="splashimageid" class="form-control imageDropDown" data-field-value="yes" data-field-name="splashimageid" name="splashimageid">											
+					<option value="none">None</option>
+											<option data-image="http://localhost:8080/cvplayer/wp-admin/admin-ajax.php?action=CVPlayer_getSvgForImage&amp;uniqueid=7026f336d8" value="7026f336d8">Test Splash</option>
+												<option data-image="http://localhost:8080/cvplayer/wp-admin/admin-ajax.php?action=CVPlayer_getSvgForImage&amp;uniqueid=ce5b54471d" value="ce5b54471d">Test 2</option>
+												<option data-image="http://localhost:8080/cvplayer/wp-admin/admin-ajax.php?action=CVPlayer_getSvgForImage&amp;uniqueid=904570069a" value="904570069a">Test Splash 3</option>
+												<option data-image="http://localhost:8080/cvplayer/wp-admin/admin-ajax.php?action=CVPlayer_getSvgForImage&amp;uniqueid=d7bbd832d5" value="d7bbd832d5">Splash 4</option>
+												<option data-image="http://localhost:8080/cvplayer/wp-admin/admin-ajax.php?action=CVPlayer_getSvgForImage&amp;uniqueid=a02a50353f" value="a02a50353f" selected="selected">Copy of Test Splash 3</option>
+												<option data-image="http://localhost:8080/cvplayer/wp-admin/admin-ajax.php?action=CVPlayer_getSvgForImage&amp;uniqueid=c4d219d519" value="c4d219d519">BG test 2</option>
+										</select></div><div id="splashimageid_msdd" style="width: 610px;" class="dd ddcommon borderRadius"><div class="ddTitle borderRadiusTp"><span class="divider"></span><span class="arrow arrowoff"></span><span id="splashimageid_title" class="ddTitleText "><img class="fnone" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/admin-ajax_004.svg"><span class="ddlabel">Copy of Test Splash 3</span><span style="display: none;" class="description"></span></span></div><input style="display: none;" class="text shadow borderRadius" autocomplete="off" id="splashimageid_titleText" type="text"><div style="z-index: 9999; display: none; position: absolute;" id="splashimageid_child" class="ddChild ddchild_ border shadow"><ul><li class="enabled _msddli_"><span class="ddlabel">None</span><div class="clear"></div></li><li class="enabled _msddli_"><img class="fnone" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/admin-ajax_002.svg"><span class="ddlabel">Test Splash</span><div class="clear"></div></li><li class="enabled _msddli_"><img class="fnone" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/admin-ajax_005.svg"><span class="ddlabel">Test 2</span><div class="clear"></div></li><li class="enabled _msddli_"><img class="fnone" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/admin-ajax_006.svg"><span class="ddlabel">Test Splash 3</span><div class="clear"></div></li><li class="enabled _msddli_"><img class="fnone" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/admin-ajax_003.svg"><span class="ddlabel">Splash 4</span><div class="clear"></div></li><li class="enabled _msddli_ selected"><img class="fnone" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/admin-ajax_004.svg"><span class="ddlabel">Copy of Test Splash 3</span><div class="clear"></div></li><li class="enabled _msddli_"><img class="fnone" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/admin-ajax.svg"><span class="ddlabel">BG test 2</span><div class="clear"></div></li></ul></div></div>
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Video splash Help Text" title="" data-placement="bottom" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div> 
+		 <div class="form-group">
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label" for="playerOptionsskinid">Video Skin</label>
+			<div class="col-xs-10 col-sm-8 col-lg-6">
+			
+				<div id="playerOptionsskinid_msddHolder" class="ddOutOfVision" style="height: 0px; overflow: hidden; position: absolute;"><select required="" id="playerOptionsskinid" class="form-control" data-field-value="yes" data-field-name="playerOptions.skinid" name="playerOptions.skinid">											
+					<option value="none">None</option>
+											<option data-image="http://localhost:8080/cvplayer/wp-content/plugins/customVideoPlayer_v1.0/pages/inc/skins/laptop.svg" value="001" selected="selected">Laptop</option>
+												<option data-image="http://localhost:8080/cvplayer/wp-content/plugins/customVideoPlayer_v1.0/pages/inc/skins/macdisplay.svg" value="002">Mac Laptop</option>
+												<option data-image="http://localhost:8080/cvplayer/wp-content/plugins/customVideoPlayer_v1.0/pages/inc/skins/tablet.svg" value="003">Tablet</option>
+										</select></div><div id="playerOptionsskinid_msdd" style="width: 610px;" class="dd ddcommon borderRadius"><div class="ddTitle borderRadiusTp"><span class="divider"></span><span class="arrow arrowoff"></span><span id="playerOptionsskinid_title" class="ddTitleText "><img class="fnone" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/laptop.svg"><span class="ddlabel">Laptop</span><span style="display: none;" class="description"></span></span></div><input style="display: none;" class="text shadow borderRadius" autocomplete="off" id="playerOptionsskinid_titleText" type="text"><div style="z-index: 9999; display: none; position: absolute;" id="playerOptionsskinid_child" class="ddChild ddchild_ border shadow"><ul><li class="enabled _msddli_"><span class="ddlabel">None</span><div class="clear"></div></li><li class="enabled _msddli_ selected"><img class="fnone" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/laptop.svg"><span class="ddlabel">Laptop</span><div class="clear"></div></li><li class="enabled _msddli_"><img class="fnone" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/macdisplay.svg"><span class="ddlabel">Mac Laptop</span><div class="clear"></div></li><li class="enabled _msddli_"><img class="fnone" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/tablet.svg"><span class="ddlabel">Tablet</span><div class="clear"></div></li></ul></div></div>
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Video Skins Help Text" title="" data-placement="bottom" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div> 
+		<div class="form-group">
+			<label for="videoSize" class="col-xs-12 col-sm-2 col-lg-2 control-label">Video Size</label>
+			<div class="col-xs-3">
+				<div class="input-group m-bot15">
+					<input value="640" class="form-control" placeholder="width" data-field-value="yes" data-field-name="size.width" type="text"> <span class="input-group-addon">px</span>
+				</div>
+			</div>
+			<span class="col-xs-1 fa fa-times "></span>
+			<div class="col-xs-3 ">
+				<div class="input-group m-bot15">
+					<input value="360" class="form-control" placeholder="height" data-field-value="yes" data-field-name="size.height" type="text"> <span class="input-group-addon">px</span>
+				</div>
+			</div>
+			<div class="col-xs-1">
+				<button type="button" class="btn tooltips fa fa-question-circle" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Video Size Help Text"></button>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label" for="autoplay">Autoplay</label>
+			<div class="col-xs-6 col-md-4 col-lg-2">
+				<div data-toggle="buttons" class="btn-group">
+					<label class="btn btn-default btn-yes "> <input name="autoplay" data-field-value="yes" data-field-name="autoplay" value="1" type="radio">Yes</label> 
+					<label class="btn btn-default btn-no active"> <input checked="checked" name="autoplay" data-field-value="yes" data-field-name="autoplay" value="0" type="radio">No</label>
+				</div>
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Video Autoplay Help Text" title="" data-placement="bottom" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label" for="videoURL">Show Timeline</label>
+			<div class="col-xs-6 col-md-4 col-lg-2">
+				<div data-toggle="buttons" class="btn-group">
+					<label class="btn btn-default btn-yes "> <input name="showtimeline" data-field-value="yes" data-field-name="showtimeline" value="1" type="radio">Yes</label>
+					<label class="btn btn-default btn-no active"> <input checked="checked" name="showtimeline" data-field-value="yes" data-field-name="showtimeline" value="0" type="radio">No</label>
+				</div>
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Video Show Timeline Help Text" title="" data-placement="bottom" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label" for="videoURL">Mute Audio</label>
+			<div class="col-xs-6 col-md-4 col-lg-2">
+				<div data-toggle="buttons" class="btn-group">
+					<label class="btn btn-default btn-yes active"> <input checked="checked" name="enablehd" data-field-value="yes" data-field-name="enablehd" value="1" type="radio">Yes</label>
+					<label class="btn btn-default btn-no "> <input name="enablehd" data-field-value="yes" data-field-name="enablehd" value="0" type="radio">No</label>
+				</div>
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Video Audio Mute Help Text" title="" data-placement="bottom" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>
+	
+</div>
+                        </div>
+							<div class="tab-pane" id="about-2">
+                        <div class="position-center">
+	<div class="form-group">
+			<label for="optin.include" class="col-xs-12 col-sm-2 col-lg-2 control-label">Include Opt-in Box</label>
+			<div class="col-xs-8 col-md-4 col-lg-3">
+				<div class="btn-group" data-toggle="buttons">
+					<label class="btn btn-default btn-yes active"> <input checked="checked" data-field-value="yes" data-field-name="optin.include" name="optin.include" value="yes" type="radio">Yes</label>
+					<label class="btn btn-default btn-no "> <input id="option3" data-field-value="yes" data-field-name="optin.include" name="optin.include" value="no" type="radio">No</label>
+					<label class="btn btn-default btn-nutral "> <input data-field-value="yes" data-field-name="optin.include" name="optin.include" value="default" type="radio">Default</label>
+				</div>
+			</div>
+			<div class="col-xs-2">
+				<button type="button" class="btn tooltips fa fa-question-circle" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Video Opt-in Help Text"></button>
+			</div>
+		</div>
+		<div class="form-group">
+
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label" for="videoOptinHeadline">Headline</label>
+
+			<div class="col-xs-10 col-sm-8 col-lg-6">
+				<input placeholder="Opt-in Headline" id="videoOptinHeadline" class="form-control" data-field-value="yes" data-field-name="optin.headline" type="text">
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Video opt-in Headline Help Text" title="" data-placement="bottom" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>
+		<div class="form-group">
+
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label" for="videoOptinText">Text</label>
+
+			<div class="col-xs-10 col-sm-8 col-lg-6">
+				<input placeholder="Opt-in Text" id="videoOptinText" class="form-control" data-field-value="yes" data-field-name="optin.text" type="text">
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Video Opt-in Text Help Text" title="" data-placement="bottom" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>
+				<div class="form-group">
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label" for="optin.location">Location</label>
+			<div class="col-xs-10 col-sm-8 col-lg-6">
+				<div data-toggle="buttons" class="btn-group">
+					<label class="btn btn-default btn-nutral "> <input name="optin.location" data-field-value="yes" data-field-name="optin.location" value="start" type="radio">Start</label>
+					<label class="btn btn-default btn-nutral active"> <input checked="checked" name="optin.location" data-field-value="yes" data-field-name="optin.location" value="end" type="radio">End</label>
+					<label class="btn btn-default btn-nutral "> <input name="optin.location" data-field-value="yes" data-field-name="optin.location" value="0.00" type="radio">Custom
+					<input placeholder="00" class="custom-time" type="text"> sec
+					</label>
+				</div>
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Opt-in Location Help Text" title="" data-placement="bottom" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>
+				<div class="form-group">
+
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label" for="optin.optincode">Opt-in Code</label>
+
+			<div class="col-xs-10 col-sm-8 col-lg-6">
+				<!--  <input  type="url" placeholder="http://www.google.com" 
+					class="form-control"  data-field-value="yes" data-field-name="optin.url"> -->
+				<textarea id="videoOptinOptinCode" class="form-control" data-field-value="yes" data-field-name="optin.optincode" row="10"></textarea>
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Opt-in URL Headline Help Text" title="" data-placement="bottom" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>
+				<div class="form-group">
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label" for="optin.allowskip">Allow Skipping</label>
+			<div class="col-xs-8 col-md-4 col-lg-2">
+				<div data-toggle="buttons" class="btn-group">
+					<label class="btn btn-default btn-yes "> <input name="optin.allowskip" data-field-value="yes" data-field-name="optin.allowskip" value="1" type="radio">Yes
+					</label> <label class="btn btn-default btn-no active"> <input checked="checked" name="optin.allowskip" data-field-value="yes" data-field-name="optin.allowskip" value="0" type="radio">No
+					</label>
+				</div>
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Video Allow Skipping Help Text" title="" data-placement="bottom" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-lg-2 col-sm-2 control-label" for="optin.skiptext">Skip Text</label>
+			<div class="col-xs-10 col-sm-8 col-lg-6">
+				<input placeholder="Skip this step" id="videoOptinSkiptext" class="form-control" data-field-value="yes" data-field-name="optin.skiptext" type="text">
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Opt-in Skip Text Headline Help Text" title="" data-placement="bottom" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>		
+		<div class="form-group">
+			<label class="col-lg-2 col-sm-2 control-label" for="optin.customstyle">Custom Styles</label>
+			<div class="col-xs-10 col-sm-8 col-lg-6">
+				<textarea id="videoOptinCustomStyles" class="form-control" data-field-value="yes" data-field-name="optin.customstyle" row="10"></textarea>
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Opt-in Custom Style Help Text" title="" data-placement="bottom" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>
+</div>
+                        </div>
+							<div class="tab-pane " id="contact-2">
+                        <div class="position-center">
+	
+		<div class="form-group">
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label" for="calltoaction.include">Include
+				Call to Action</label>
+			<div class="col-xs-8 col-md-4 col-lg-3">
+				<div data-toggle="buttons" class="btn-group">
+					<label class="btn btn-default btn-yes  active"> <input checked="checked" data-field-value="yes" data-field-name="calltoaction.include" name="calltoaction.include" value="yes" type="radio">Yes </label>
+					<label class="btn btn-default btn-no "> <input data-field-value="yes" data-field-name="calltoaction.include" name="calltoaction.include" value="no" type="radio">No </label>
+					<label class="btn btn-default btn-nutral "> <input data-field-value="yes" data-field-name="calltoaction.include" name="calltoaction.include" value="default" type="radio">Default </label>
+				</div>
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Call to action Help Text" title="" data-placement="right" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>
+		<div class="form-group">
+
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label" for="videoOptinHeadline">Button Text</label>
+
+			<div class="col-xs-10 col-sm-8 col-lg-6">
+				<input placeholder="Click Here" data-field-value="yes" data-field-name="calltoaction.linkbutton.value" class="form-control" type="text">
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Button text Headline Help Text" title="" data-placement="right" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>
+		<div class="form-group">
+
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label" for="calltoaction.linkbutton.url">URL</label>
+
+			<div class="col-xs-10 col-sm-8 col-lg-6">
+				<input placeholder="http://www.abc.com" name="calltoaction.linkbutton.url" class="form-control" data-field-value="yes" data-field-name="calltoaction.linkbutton.url" type="url">
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Call to action URL Text Help Text" title="" data-placement="right" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label" for="linkbutton_target">Open Link In</label>
+			<div class="col-xs-8 col-md-4 col-lg-3">
+				<div data-toggle="buttons" class="btn-group">
+					<label class="btn btn-default btn-nutral "> <input data-field-value="yes" data-field-name="calltoaction.linkbutton.target" value="_blank" name="linkbutton_target" type="radio">New Window</label>
+					<label class="btn btn-default btn-nutral active"> <input checked="checked" data-field-value="yes" data-field-name="calltoaction.linkbutton.target" value="_self" name="linkbutton_target" type="radio">Self</label>
+				</div>
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Call in action target window Help Text" title="" data-placement="right" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label">Automatic	Redirect</label>
+			<div class="col-xs-8 col-md-4 col-lg-3">
+				<div data-toggle="buttons" class="btn-group">
+					<label class="btn btn-default btn-yes "> <input data-field-value="yes" data-field-name="calltoaction.autoredirect" value="1" name="calltoaction_autoredirect" type="radio">Yes</label>
+					<label class="btn btn-default btn-no  active"> <input checked="checked" data-field-value="yes" data-field-name="calltoaction.autoredirect" value="0" name="calltoaction_autoredirect" type="radio">No</label>
+				</div>
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Automatic Redirect Help Text" title="" data-placement="right" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-xs-12 col-sm-2 col-lg-2 control-label">Location</label>
+			<div class="col-xs-10 col-sm-8 col-lg-6">
+				<div data-toggle="buttons" class="btn-group">
+					<label class="btn btn-default btn-nutral "> <input data-field-value="yes" data-field-name="calltoaction.location" value="start" name="calltoaction_location" type="radio">Start</label>
+					<label class="btn btn-default btn-nutral "> <input data-field-value="yes" data-field-name="calltoaction.location" value="end" name="calltoaction_location" type="radio">End</label> 
+					<label class="btn btn-default btn-nutral active"> <input checked="checked" data-field-value="yes" data-field-name="calltoaction.location" value="0.00" name="calltoaction_location" type="radio">Custom
+					<input placeholder="00" class="custom-time" type="text"> sec
+					</label>
+				</div>
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Opt-in Location Help Text" title="" data-placement="right" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>
+				<div class="form-group">
+			<label class="col-lg-2 col-sm-2 control-label" for="calltoaction.customstyle">Custom Styles</label>
+			<div class="col-xs-10 col-sm-8 col-lg-6">
+				<textarea id="videoOptinCustomStyles" class="form-control" data-field-value="yes" data-field-name="calltoaction.customstyle" row="10"> </textarea>
+			</div>
+			<div class="col-xs-2">
+				<button data-original-title="Call to action Custom Style Help Text" title="" data-placement="bottom" data-toggle="tooltip" class="btn tooltips fa fa-question-circle" type="button"></button>
+			</div>
+		</div>	
+</div>
+                        </div>
+						</div>
+					</div>
+					<div class="panel-heading tab-bg-dark-navy-blue">
+						<div class="form-group">
+							<div class="col-lg-offset-2 col-lg-10 btn-container">
+								<div class="col-xs-12 col-sm-4 col-lg-3">
+									<button type="button" class="btn btn-success col-xs-12" id="btn_addNewVideo">Update Video</button>
+								</div>
+								<div class="col-xs-12 col-sm-4 col-lg-3">
+									<button data-toggle="modal" data-remote="http://localhost:8080/cvplayer/wp-admin/admin-ajax.php?action=CVPlayer_getideoPreviewDialog&amp;uniqueid=6a0a06dfdb" data-target="#vp_modal_addNewVideo" type="button" class="btn btn-primary col-xs-12" id="btn_previewVideo">Preview Video</button>
+								</div>
+								<div class="col-xs-12 col-sm-4 col-lg-3">
+									<button type="button" class="btn btn-info col-xs-12" id="btn_backToVideo">Back to Videos</button>
+								</div>
+
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+				</section>
+
+			</div>
+		</div>
+		<input value="" style="display: none;" type="submit">
+	</form>
+</section>
+</div>
+</div>
+</div>
+
+<div class="clear"></div></div><!-- wpbody-content -->
+<div class="clear"></div></div><!-- wpbody -->
+<div class="clear"></div></div><!-- wpcontent -->
+
+<div id="wpfooter">
+		<p id="footer-left" class="alignleft">
+		<span id="footer-thankyou">Thank you for creating with <a href="https://wordpress.org/">WordPress</a>.</span>	</p>
+	<p id="footer-upgrade" class="alignright">
+		Version 4.0	</p>
+	<div class="clear"></div>
+</div>
+	<div id="wp-auth-check-wrap" class="hidden">
+	<div id="wp-auth-check-bg"></div>
+	<div id="wp-auth-check">
+	<div class="wp-auth-check-close" tabindex="0" title="Close"></div>
+			<div id="wp-auth-check-form" data-src="http://localhost:8080/cvplayer/wp-login.php?interim-login=1"></div>
+			<div class="wp-auth-fallback">
+		<p><b class="wp-auth-fallback-expired" tabindex="0">Session expired</b></p>
+		<p><a href="http://localhost:8080/cvplayer/wp-login.php" target="_blank">Please log in again.</a>
+		The login page will open in a new window. After logging in you can close it and return to this page.</p>
+	</div>
+	</div>
+	</div>
+	<script type="text/javascript">
+/* <![CDATA[ */
+var localize_var = {"TextDomain":"CVPlayer","admin_ajaxurl":"http:\/\/localhost:8080\/cvplayer\/wp-admin\/admin-ajax.php","imageDirUrl":"http:\/\/localhost:8080\/cvplayer\/wp-content\/plugins\/customVideoPlayer_v1.0\/pages\/images","tempImgDirUrl":"http:\/\/localhost:8080\/cvplayer\/wp-content\/plugins\/customVideoPlayer_v1.0\/pages\/inc\/splashTemplates\/images\/"};
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var commonL10n = {"warnDelete":"You are about to permanently delete the selected items.\n  'Cancel' to stop, 'OK' to delete."};var heartbeatSettings = {"nonce":"14d7886d9b"};var authcheckL10n = {"beforeunload":"Your session has expired. You can log in again from this page or go to the login page.","interval":"180"};/* ]]> */
+</script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/load-scripts_002.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/date.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/demo_data.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/common_page_ini.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/common-data.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/bootstrap.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/bootstrap-switch.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/plugin_utilities.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/script_addNewVideo.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/jquery.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/jquery_002.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/DT_bootstrap.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/bootbox.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/bootstrap-colorpicker.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/video.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/youtube.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/rgbcolor.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/StackBlur.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/canvg.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/jquery-sortable.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/base64.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/canvas2image.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/jquery_003.js"></script>
+<script type="text/javascript" src="CVPlayer%20-%20Add%20New%20Video%20%E2%80%B9%20cvplayer%20test%20%E2%80%94%20WordPress_files/script.js"></script>
+
+<div class="clear"></div></div><!-- wpwrap -->
+<script type="text/javascript">if(typeof wpOnload=='function')wpOnload();</script>
+
+
+</body></html>

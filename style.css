@@ -1,0 +1,116 @@
+@CHARSET "ISO-8859-1";
+/* Plugin - Header */
+.wrap h2,.wrap h3 {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	
+}
+
+.wrap>h2 {
+	display: block;
+	background-color: #f9f9f9;
+	color: transparent;
+	padding: 0;
+	height: 5.5vw;
+	margin-bottom: 1vh;
+	z-index: 1;
+	border-style: solid; 
+	background: url("pages/images/bottombg.png") repeat-x scroll left bottom;
+	
+}
+
+.wrap>h2>.topmenulink {
+	color: #ffffff;	
+	margin-left: 35px;
+	padding-left: 35px;
+	margin-bottom: 35px;
+	border-bottom: 5px solid #e5e5e5;
+}
+.guideicon , .supporticon{
+		float: right;
+	  height: 7vh;
+	  line-height: 9vh;
+	  padding-left: 3vw;
+	  width: 12vw;
+	  color: #cacaca;
+	  text-decoration: none;
+	  font-size: 1.2vw;
+}
+
+.guideicon:hover , .supporticon:hover{
+	text-decoration: none;	
+	
+}
+
+.guideicon {
+  background: url("pages/images/howtoicon.png") no-repeat scroll left 80% / 2vw auto rgba(0, 0, 0, 0);
+  display: inline-block;
+}
+
+.supporticon {
+	display: inline-block;
+	background: url(pages/images/supporticon.png) no-repeat scroll left 80% / 2vw auto rgba(0, 0, 0, 0);
+	margin-left: 6vh;
+}
+
+.fbicon {
+	display: inline-block;
+	background: url(pages/images/fbicon.png) no-repeat left center;
+	background-size:99%;
+	width: 10vw;
+	margin-left: 3vh;
+	float: right;
+	/*font-size: 0px;*/
+	height: 7vh;
+}
+
+.logobig, .logobig:hover {
+  background: url("pages/images/logo.png") no-repeat scroll 25% center / 64% auto #1fb5ad;
+  border-bottom: #1faaa3 6px solid;
+  color: #fff;
+  font-size: 0;
+  height: 4vh;
+  padding: 1vw;
+  padding-left:0px;
+  margin-left:0px;
+  text-decoration: none;
+  vertical-align: middle;
+ width: 20vw;
+}
+
+
+.WPCVP .pagination a,.WPCVP a.fa{
+	text-decoration: none !important;
+}
+
+/* Page - Header */
+.page-title{
+	padding: 1vh;
+}
+
+div#load_bar_ctrl{
+	display: none;
+}
+
+/* Page 404 */
+.page-notfound{
+	padding: 10vh;
+	text-align: center;
+}
+.page-notfound h1{
+	font-size: 8vw;
+}
+
+.cvplayer-error{
+	background-color: rgba(255,0,0,.1);
+	padding: 20px;
+}
+
+/* Wp menu item */
+a[href="admin.php?page=VideoRizer"] div.wp-menu-image {
+  margin-right: 5px !important;
+}
+
+a[href="admin.php?page=VideoRizer"] div.wp-menu-image img {
+  padding: 0 !important;
+}
+

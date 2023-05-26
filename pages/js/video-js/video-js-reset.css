@@ -1,0 +1,69 @@
+@CHARSET "ISO-8859-1";
+/* Video Player */
+
+/* Play button */
+.vjs-big-play-button.emptyText {
+  margin: -1em auto auto -2em;
+	left: 0 !important;
+	top: 0 !important;
+}
+
+/*.vjs-big-play-button.withText{
+	line-height:2em;
+	padding:5px 10px;
+	width:50% !important;
+	left:25% !important;
+	top:40% !important;
+}
+
+.vjs-big-play-button.withText:before{
+	content: "" !important;
+}
+*/
+.vjs-big-play-button.withText {
+  display: table;
+  left: 0;
+  top: 25%;
+  width: 99%;
+}
+
+.vjs-big-play-button.withText:before{
+	content: "" !important;
+}
+
+.vjs-big-play-button.withText > span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.video-started .vjs-poster{
+	display:none !important;
+}
+
+.vjs-big-play-button span {
+	display: none !important;
+}
+.vjs-default-skin .vjs-big-play-button {
+	background: none !important;
+}
+.vjs-big-play-button {
+	border: none !important;
+	box-shadow: none !important;
+	background-color: none !important;
+	border-radius: 0;
+	top: 0 !important;
+	height: 252% !important;
+}
+
+.vjs-loading-spinner {
+	display: none !important;
+}
+
+
+
+@media (max-width : 360px) {
+
+	.vjs-control-bar {
+		display: none !important;
+	}
+}

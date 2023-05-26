@@ -1,0 +1,74 @@
+/* call to action */
+.vid-calltoact-ctrl-container{
+  bottom: 0;
+  box-sizing: border-box;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display:none;
+}
+.calltoact-ctrl-default{
+	display:table;
+	z-index: 9999;	
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+/* Default call to act */
+.calltoact-ctrl-default{
+	background-image: url('../wp-content/plugins/VideoRizer_v1.0.0/pages/images/calltoactionbg.png');
+	background-repeat: repeat;;
+}
+
+.calltoact-button{
+  font-size: 30px !important;
+  line-height: 25px;
+  padding: 10px;
+  text-align: center;
+  border: medium none;  
+  font-weight: bold !important;
+  cursor: pointer;
+  display:table-cell;
+  vertical-align:bottom;
+  margin-bottom:0.5vw;
+  margin-top:-2vw;
+  text-transform: none !important;
+}
+
+div.vid-calltoact-ctrl.calltoact-ctrl-default .element-container {
+ /* margin: 10px 0;*/
+ display: table-cell;
+ vertical-align: bottom;
+
+}
+
+
+.vid-calltoact-ctrl .skip-text {
+  display: table-cell;
+  vertical-align: top;
+  color: #fff !important;
+  text-shadow: 2px 2px 4px #000000;
+  
+}
+.element-container-skip {
+  padding-top: 25px;
+  width: 100%;
+  display: table-row;
+  vertical-align:top !important;
+  margin-top:0 !important;
+}
+
+
+
+div.vid-calltoact-ctrl-container{
+	z-index: 9999;
+}
+
+@media (max-width : 360px) {
+	.calltoact-button{
+		font-size: 25px !important;
+	}
+}

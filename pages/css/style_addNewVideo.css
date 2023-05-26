@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+span.fa.fa-times {
+  font-size: 22px;
+  padding: 6px 5px;
+  width: 32px;
+}
+#vp_modal_addNewVideo #modalText{
+	margin-top: 10px;
+}
+
+.custom-time{
+	  line-height: 14px;
+  margin-left: 5px;
+  padding: 1px !important;
+  width: 50px;
+  text-align: right;
+}
+
+img.fnone {
+    height: auto;
+    width: 5vw;
+}
+
+#splashimageid_msdd, #playerOptionsskinid_msdd{
+	width: 100% !important;
+}
+
+.splash{
+width:100% !important;
+height:auto !important;
+}

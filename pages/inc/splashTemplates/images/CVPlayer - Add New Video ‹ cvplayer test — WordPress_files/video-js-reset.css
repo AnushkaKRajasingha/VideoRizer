@@ -1,0 +1,41 @@
+@CHARSET "ISO-8859-1";
+/* Video Player */
+/* opt-in */
+.optin-ctrl-default{
+	display:none;
+	z-index: 9999;
+	position: absolute;
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+}
+
+/* call to action */ 
+.calltoact-ctrl-default{
+	display:none;
+	z-index: 9999;
+	position: absolute;
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+}
+/* Play button */
+.vjs-big-play-button.emptyText {
+  left: 50% !important;
+  margin: -1em auto auto -2em;
+  top: 50% !important;
+}
+
+.vjs-big-play-button.withText{
+	line-height:2em;
+	padding:5px 10px;
+	width:50% !important;
+	left:25% !important;
+	top:40% !important;
+}
+
+.vjs-big-play-button.withText:before{
+	content: "" !important;
+}
+
+.element-container {
+  margin: 10px 0;
+}

@@ -1,0 +1,25 @@
+@CHARSET "ISO-8859-1";
+.page-title {
+    display: none;
+}
+
+.item-thumb-ctner {
+ /* max-height: 100px;*/
+  text-align: center;
+}
+
+.item-thumb-ctner > img {
+  height: 100px !important;
+}
+
+.splash{
+	/*border: 1px #CCC solid;
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;*/
+padding: 5px;
+/*background-color: rgba(132,224,219,1);*/
+width:100% !important;
+height:auto !important;
+/*background: url("../images/38368.jpg") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, .5);*/
+}

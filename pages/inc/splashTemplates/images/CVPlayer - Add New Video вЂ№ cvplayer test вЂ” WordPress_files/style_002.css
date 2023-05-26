@@ -1,0 +1,92 @@
+@CHARSET "ISO-8859-1";
+/* Plugin - Header */
+.wrap h2,.wrap h3 {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+.wrap>h2 {
+	display: block;
+	background-color: #34495E;
+	color: transparent;
+	padding: 10px 25px;
+	height: 10vh;
+	margin-bottom: 1vh;
+	z-index: 1;
+}
+
+.wrap>h2>.topmenulink {
+	color: #ffffff;
+	
+	margin-left: 35px;
+	padding-left: 35px;
+	margin-bottom: 35px;
+}
+
+.guideicon {
+	display: inline-block;
+	background: url(pages/images/howtoicon.png) no-repeat left center;
+	background-size: 95%;
+	font-size: 0px;
+	width: 8vw;
+	float: right;
+	height: 7vh;
+}
+
+.logobig,.logobig:HOVER {
+	/*font-size: 0px;
+	color:transparent;
+	background: url(pages/images/logobig.png) no-repeat left center;*/
+	font-size:50px;
+	color:#fff;
+	background-size: 55%;
+	vertical-align: middle;
+	text-decoration: none;
+	height: 7vh;
+	width: 31vw;
+		
+}
+
+.supporticon {
+	display: inline-block;
+	background: url(pages/images/supporticon.png) no-repeat left center;
+	background-size: 80%;
+	width: 8vw;
+	margin-left: 6vh;
+	float: right;
+	font-size: 0px;
+	height: 7vh;
+}
+
+.fbicon {
+	display: inline-block;
+	background: url(pages/images/fbicon.png) no-repeat left center;
+	background-size:99%;
+	width: 10vw;
+	margin-left: 3vh;
+	float: right;
+	font-size: 0px;
+	height: 7vh;
+}
+.WPCVP .pagination a,.WPCVP a.fa{
+	text-decoration: none !important;
+}
+
+/* Page - Header */
+.page-title{
+	padding: 1vh;
+}
+
+div#load_bar_ctrl{
+	display: none;
+}
+
+/* Page 404 */
+.page-notfound{
+	padding: 10vh;
+	text-align: center;
+}
+.page-notfound h1{
+	font-size: 8vw;
+}
+

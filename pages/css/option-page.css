@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+.page-title{
+	display: none;
+}
+.video-thumb{
+	
+}
+.video-thumb div.item-thumb-ctner{
+	/*height: 10vw;*/
+	width: 160px;
+	height: 90px;
+}
+.video-thumb div.item-thumb-ctner img{
+	height: 100%;
+	width: auto;
+}
