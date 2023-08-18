@@ -1,5 +1,6 @@
 .abc{
     margin: 54px;
+    align-self: center;
 }
 .abc.ab-item{
     accent-color: #ff6d58;
