@@ -1,4 +1,5 @@
 .def{
     align-self: auto;
     alignment-baseline: auto;
+    -moz-box-orient: block-axis;
 }
